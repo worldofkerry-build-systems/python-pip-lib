@@ -2,5 +2,5 @@
 name = "fib"
 version = "0.0.0"
 
-[tool.setuptools.packages.find]
-include = ["fib"]
+[tool.setuptools]
+package-dir = {"" = "src"}
