@@ -1,1 +1,1 @@
-from fib import fib
+from fib.fib import fib
